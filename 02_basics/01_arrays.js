@@ -5,10 +5,10 @@
 // array is always an object
 // it is a single variable which stores multiple values which may or may not be of the same data type
 
-// arrays in javascript is resizable 
+// arrays in javascript is resizable => important (check this concept again)
 // an array inside another array is also possible 
 // arrays have zero indexing that means first element always is at 0th position and so on 
-// arrays cannot be accessed using arbitary elements like myArray["one"] => called not associative in nature (see the meaning of associative array here to get things more clear)
+// arrays are accessed by myArray[0] and cannot be accessed using arbitary elements like myArray["one"] => that is they are not associative in nature (see the meaning of associative array here to get things more clear)
 
 // in javascript while performing array copy operations it creates something known as SHALLOW COPIES and not DEEP COPIES
 
@@ -44,8 +44,8 @@ const hahaArray2 = myArray.join() // here it copies the array but it changes it 
 //console.log(typeof(hahaArray2)) // the output is string
 
 myTodoArray = [10,11,12,13,14,15,16,17,18,19,20]
-console.log(myTodoArray.slice(0,4)) // returns the part of the array whose index have been given  and DOES NOT CHANGE THE ORIGINAL ARRAY
+console.log(myTodoArray.slice(0,4)) // returns the part of the array whose index have been given  in array format and DOES NOT CHANGE THE ORIGINAL ARRAY
 console.log(myTodoArray)
 
-console.log(myTodoArray.splice(0,4)) // returns the part of an array whose index have been given and CHANGES THE ORIGINAL ARRAY
+console.log(myTodoArray.splice(0,4)) // returns the part of an array whose index have been given in array fromat and CHANGES THE ORIGINAL ARRAY
 console.log(myTodoArray)
