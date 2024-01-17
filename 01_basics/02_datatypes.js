@@ -30,3 +30,4 @@ let last="" // it is not null since its type has been declared by using "" VERY 
 // arrays
 
 // typeof operator => we can use raw strings and variables 
+// typeof() can be used as two ways: normally and as a method (by passing the variable as parameters)
